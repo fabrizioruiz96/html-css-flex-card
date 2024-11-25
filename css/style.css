@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    text-align: start;
+    display: flex;
+}
+
+.id-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img{
+    width: 25%;
+}
+
+ul{
+    list-style-type: none;
+}
