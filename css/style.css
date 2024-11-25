@@ -1,38 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 30px auto;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 500;
 }
 
-.card-container{
+h1 {
+    color: #E53170;
+    margin-bottom: 40px;
+    font-weight: 900;
+}
+
+.pres-team {
+    margin-bottom: 30px;
+}
+
+.card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 20px;
 }
 
-.card{
+.card {
     background-color: black;
     color: white;
     text-align: start;
     display: flex;
+    column-gap: 15px;
+    flex-basis: 400px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.15);
 }
 
-.id-data{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-img{
+img {
     width: 25%;
 }
 
-ul{
-    list-style-type: none;
+.id-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.id-name {
+    font-weight: 900;
+}
+
+.email {
+    color: #55BDE5;
 }
