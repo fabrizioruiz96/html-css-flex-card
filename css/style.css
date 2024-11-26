@@ -36,7 +36,8 @@ h1 {
     text-align: start;
     display: flex;
     column-gap: 15px;
-    flex-basis: 400px;
+    flex-basis: calc((100% / 3) - 15px);
+    min-width: 400px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.15);
 }
 
